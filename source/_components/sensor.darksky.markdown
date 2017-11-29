@@ -67,6 +67,7 @@ Configuration variables:
   - **apparent_temperature_min**: Today's expected apparent low temperature.
   - **precip_intensity_max**: Today's expected maximum intensity of precipitation.
   - **uv_index**: The current UV index.
+  - **icon**: A text description of the forecasted daily conditions that can be used with an icon template. 
 - **units** (*Optional*): Specify the unit system. Default to `si` or `us` based on the temperature preference in Home Assistant. Other options are `auto`, `us`, `si`, `ca`, and `uk2`.
 `auto` will let Dark Sky decide the unit system based on location.
 - **update_interval** (*Optional*): Minimum time interval between updates. Default is 2 minutes. Supported formats:
